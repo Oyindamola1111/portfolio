@@ -9,14 +9,14 @@ import { RiTailwindCssFill } from "react-icons/ri";
 
 const Framework = () => {
   return (
-    <div id="framework" className="h-[50vh]">
+    <div id="framework" className="h-[70vh]">
       <div className="flex justify-center">
         <h1 className="text-blue-700 text-[45px] font-bold">Frameworks</h1>
       </div>
      <div className="flex justify-center items-center gap-[100px] h-[50vh]">
       <main className="frame">
          <p className=" text-red-400">
-      <IoLogoHtml5 size={100} /></p>
+      <IoLogoHtml5 size={100}/></p>
       <p>Html</p>
       </main>
       <main  className="frame">

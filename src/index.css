@@ -13,14 +13,14 @@
 
 body {
   margin: 0;
-  padding: 50px 150px 20px 150px;
+  /* padding: 50px 150px 20px 150px; */
   font-family:"Roboto", sans-serif;
 }
 .head{
   position: fixed;
   z-index:1;
   top:0px;
-  width:82%;
+  width: 100%;
 }
 .firstlogo{
   border-radius: 20px;

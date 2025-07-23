@@ -2,11 +2,11 @@
 
 const Profile = () => {
   return (
-    <div id="profile" className="profile h-[100vh] ">
+    <div id="profile" className="profile h-[100vh]  ">
       <section className="flex justify-center">
         <h1 className="text-blue-700 text-[45px] font-bold pb-[50px]">My Profile</h1>
       </section>
-      <section className="flex justify-between items-center">
+      <section className="flex justify-between items-center  pr-[7%] pl-[7%]">
         <main>
           <img className="biglogo w-[350px] h-[500px]" src="biglogo.jpg" alt="logo" />
         </main>
