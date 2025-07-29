@@ -2,16 +2,16 @@
 
 const Profile = () => {
   return (
-    <div id="profile" className="profile h-[100vh]  ">
+    <div id="profile" className="profile h-[100vh]">
       <section className="flex justify-center">
         <h1 className="text-blue-700 text-[45px] font-bold pb-[50px]">My Profile</h1>
       </section>
-      <section className="flex justify-between items-center  pr-[7%] pl-[7%]">
+      <section className="flex justify-between items-center px-[160px] ">
         <main>
-          <img className="biglogo w-[350px] h-[500px]" src="biglogo.jpg" alt="logo" />
+          <img className="biglogo w-[350px] h-[500px] rounded-[20px] " src="biglogo.jpg" alt="logo" />
         </main>
-        <main>
-          <h1 className="text-green-950 w-[700px] text-[25px]">
+        <main className="w-[700px] ">
+          <h1 className="text-green-950 text-[25px] ">
             Motivated and detail-oriented Software Developer with a
             strong foundation in HTML, CSS, JavaScript,React js,MongoDB,Express js,Node js. Passionate
             about building clean, responsive, and interactive web interfaces.

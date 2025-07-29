@@ -3,10 +3,9 @@
 
 const Header = () => {
   return (
-    <div className="head shadow-2xl bg-white pt-[20px] pb-[20px] pl-[160px] pr-[160px] flex justify-between items-center max-md:bg-red-500">
+    <div className="head shadow-2xl bg-white pt-[20px] pb-[20px] pl-[160px] pr-[160px] flex justify-between items-center max-md:bg-red-500 ">
       <div>
-     <a href="#home"> <i className="text-[25px] text-pink-800 font-bold hover:text-red-700 sm:w-[90%] md:w-[80%] lg:w-[60%] 
-  mx-auto max-md:text-[20px]">Sanusi Oyindamola</i></a>
+     <a href="#home"> <i className="text-[25px] text-pink-800 font-bold hover:text-red-700 max-md:text-[20px]">Sanusi Oyindamola</i></a>
       </div>
       <div className="text-[20px] text-blue-700 font-bold">
         <ul className="flex gap-[30px]">

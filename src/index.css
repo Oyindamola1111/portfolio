@@ -28,19 +28,19 @@ body {
 button{
   border-radius: 10px;
 }
-.biglogo{
+/* .biglogo{
   border-radius: 50px;
-}
-.profile{
+} */
+/* .profile{
   padding: 0px 125px 0px 125px;
-}
-.frame{
+} */
+ .frame{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.images{
+} 
+/* .images{
   border-radius: 20px;
-}
+} */
 
