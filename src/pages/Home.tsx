@@ -46,7 +46,7 @@ const Home = () => {
 
       {/* Right Section */}
       <section className="animate-fadeIn delay-200">
-        <div className="relative">
+        <div className="">
           <img
             className="w-[250px] h-[350px] md:w-[350px] md:h-[500px] object-cover rounded-2xl shadow-lg border-4 border-white"
             src="logo.jpg"

@@ -1,9 +1,8 @@
 // import React from 'react'
 
 import { IoLogoHtml5 } from "react-icons/io";
-import { FaCss3Alt, FaReact, FaNodeJs } from "react-icons/fa";
+import { FaCss3Alt, FaReact } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
-import { BiLogoMongodb } from "react-icons/bi";
 import { RiTailwindCssFill } from "react-icons/ri";
 
 const Framework = () => {
@@ -58,22 +57,7 @@ const Framework = () => {
           </p>
           <p className="mt-4 font-medium">Tailwind</p>
         </main>
-
-        {/* Node.js */}
-        <main className="frame w-full bg-gray-100 px-6 py-7 rounded-2xl shadow-2xl flex flex-col items-center">
-          <p className="text-lime-500">
-            <FaNodeJs className="w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40" />
-          </p>
-          <p className="mt-4 font-medium">Node.js</p>
-        </main>
-
-        {/* MongoDB */}
-        <main className="frame w-full bg-gray-100 px-6 py-7 rounded-2xl shadow-2xl flex flex-col items-center">
-          <p className="text-green-800">
-            <BiLogoMongodb className="w-20 h-20 sm:w-28 sm:h-28 md:w-40 md:h-40" />
-          </p>
-          <p className="mt-4 font-medium">MongoDB</p>
-        </main>
+       
       </div>
     </div>
   );
