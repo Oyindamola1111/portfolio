@@ -19,7 +19,7 @@ const Header = () => {
         <a className="hover:text-sky-500" href="#profile">Profile</a>
         <a className="hover:text-sky-500" href="#projects">Projects</a>
         <a className="hover:text-sky-500" href="#framework">Framework</a>
-        <a className="hover:text-sky-500" href="#tool">Tools</a>
+        <a className="hover:text-sky-500" href="#tools">Tools</a>
         <a className="hover:text-sky-500" href="#contact">Contact</a>
       </nav>
 

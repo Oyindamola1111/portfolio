@@ -4,7 +4,7 @@ const Profile = () => {
     <div id="profile" className="profile min-h-screen px-6 md:px-[160px] py-10">
       {/* Title */}
       <section className="flex justify-center">
-        <h1 className="text-blue-700 text-[32px] md:text-[45px] font-bold pb-8 text-center">
+        <h1 className=" text-blue-700 text-[32px] md:text-[45px] font-bold pb-8 text-center">
           My Profile
         </h1>
       </section>

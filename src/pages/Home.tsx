@@ -28,7 +28,7 @@ const Home = () => {
 
         <div className="flex justify-center md:justify-start gap-4 mt-6">
           <a
-  className="px-6 py-3 text-[18px] md:text-[20px] bg-gradient-to-r from-pink-600 to-orange-500 text-white font-semibold shadow-md hover:shadow-lg rounded-full transition-transform transform hover:scale-105"
+  className="cursor-pointer px-6 py-3 text-[18px] md:text-[20px] bg-gradient-to-r from-pink-600 to-orange-500 text-white font-semibold shadow-md hover:shadow-lg rounded-full transition-transform transform hover:scale-105"
   href="/Sanusi-Oyindamola-Resume.pdf"
   download="Sanusi-Oyindamola-Resume.pdf"
 >
@@ -52,7 +52,7 @@ const Home = () => {
             src="logo.jpg"
             alt="Profile"
           />
-          <div className="absolute inset-0 rounded-2xl"></div>
+          {/* <div className="absolute inset-0 rounded-2xl"></div> */}
         </div>
       </section>
     </div>
